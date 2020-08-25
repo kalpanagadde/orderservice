@@ -11,6 +11,11 @@ Step4: Execute mvn install command.
 
 How To Run & Use:<br>
 Step1: Navigate to target folder and use java -jar jar-file-name <br>
+Note: You can use http://localhost:8080/swagger-ui.html <br>
+      You can use http://localhost:8002/swagger-ui.html <br>
+      For Db access use below URLs <br>
+      http://localhost:8080/h2-console/<br>
+      http://localhost:8002/h2-console/<br>
 Step2: Use below APIs for OrderItem Service<br>
 	GET: http://localhost:8080/orderitem/{id}<br>
 	Parameters: Replace {id} with productCode.<br>
